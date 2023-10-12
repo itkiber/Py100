@@ -15,14 +15,14 @@ files:
     encrypted_possible_answer: |-
       length = 90  # Длина
       width = 50  # Ширина
-  - offset: 103
+  - offset: 179
     length: 36
     placeholder_text: "...  # TODO Посчитайте периметр поля"
     initial_state:
       length: 36
       offset: 103
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: (length + width) * 2
   text: |
