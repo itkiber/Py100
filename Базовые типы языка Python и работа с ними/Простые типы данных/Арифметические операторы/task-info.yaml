@@ -10,7 +10,7 @@ files:
       length: 46
       offset: 43
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       length = 90  # Длина
