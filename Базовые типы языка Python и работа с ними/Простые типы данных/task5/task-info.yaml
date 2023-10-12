@@ -31,7 +31,7 @@ files:
       length: 24
       offset: 390
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: "time_in_sec * speed_in_kb_in_sec  # размер файла"
   - offset: 429
