@@ -20,7 +20,7 @@ files:
       length: 23
       offset: 89
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: sum(list_digit))
   - offset: 138
@@ -50,7 +50,7 @@ files:
       length: 31
       offset: 253
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: max(list_digit))
   - offset: 322
@@ -60,7 +60,7 @@ files:
       length: 40
       offset: 322
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: "round(sum(list_digit) / len(list_digit), 2))"
   text: |
