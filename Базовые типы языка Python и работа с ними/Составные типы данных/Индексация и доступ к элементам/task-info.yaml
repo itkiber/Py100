@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 72
-    length: 297
+    length: 302
     placeholder_text: "...  # TODO Получить последнего участника"
     initial_state:
       length: 41
       offset: 72
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "list_players[-1]"
   - offset: 384
@@ -20,7 +20,7 @@ files:
       length: 38
       offset: 123
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       {
@@ -36,7 +36,7 @@ files:
       length: 118
       offset: 163
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       print("Последний участник:", last_player)
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 19 Oct 2023 17:18:32 UTC"
+  time: "Thu, 19 Oct 2023 17:24:58 UTC"
 record: -1
