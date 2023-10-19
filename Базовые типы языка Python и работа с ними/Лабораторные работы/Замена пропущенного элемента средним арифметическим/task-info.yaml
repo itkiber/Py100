@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 102
-    length: 103
+    length: 127
     placeholder_text: |-
       # TODO заменить значение пропущенного элемента средним арифметическим
 
       print("Измененный список:", ...)
     initial_state:
-      length: 103
+      length: 115
       offset: 102
     initialized_from_dependency: false
     selected: true
