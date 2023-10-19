@@ -4,29 +4,29 @@ files:
   visible: true
   placeholders:
   - offset: 72
-    length: 41
+    length: 297
     placeholder_text: "...  # TODO Получить последнего участника"
     initial_state:
       length: 41
       offset: 72
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "list_players[-1]"
-  - offset: 123
+  - offset: 384
     length: 38
     placeholder_text: "...  # TODO Получить первого участника"
     initial_state:
       length: 38
       offset: 123
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       {
           "Первый участник": list_players[0]
       }
-  - offset: 163
+  - offset: 424
     length: 118
     placeholder_text: |-
       # TODO Распечатать имя последнего и первого участника
@@ -36,8 +36,8 @@ files:
       length: 118
       offset: 163
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       print("Последний участник:", last_player)
       print("Первый участник:", reestr["Первый участник"])
@@ -60,5 +60,8 @@ files:
     Последний участник: Кирилл
     Первый участник: Маша
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 19 Oct 2023 17:18:32 UTC"
 record: -1

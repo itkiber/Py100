@@ -13,7 +13,7 @@ files:
       length: 103
       offset: 102
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       index_missing_item = 4
